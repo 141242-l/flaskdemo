@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request, redirect, url_for, session
 import wikipedia
+from flask import Flask, render_template, request, session, redirect, url_for
+
 
 app = Flask(__name__)
 # This Flask app sets app.secret_key, which is an encryption key used "to sign cookies and other things".
